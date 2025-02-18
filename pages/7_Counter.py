@@ -7,6 +7,8 @@ st.set_page_config(page_title="Contador", page_icon="⏳", layout="centered")
 # Page title and description
 st.title("⏳ Contador hasta el 15 de Julio de 2025")
 st.write("Este contador muestra el tiempo restante en tarjetas para meses, semanas, días, horas y minutos.")
+st.write("Para poder ver el contador cambia a Light Mode.")
+
 
 # Define the target date and current date
 target_date = datetime(2025, 7, 15)
